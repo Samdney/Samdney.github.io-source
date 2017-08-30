@@ -1,7 +1,8 @@
 @charset "utf-8";
-/* CSS-File for Homepage (screen-version): carolin-zoebelein.de
+/* CSS-File for Blog (screen-version): Samdney.github.io
 	Author and Copyright: Carolin Zöbelein
-	E-Mail: contact@carolin-zoebelein.de
+	E-Mail: contact(at)carolin-zoebelein(dot)de
+	GnuPG: D4A7 35E8 D47F 801F 2CF6 2BA7 927A FD3C DE47 E13B 
 */
 
 /* screenreader option */
@@ -9,6 +10,11 @@
 
 html, body {
 	font-size: 100.01%;
+}
+
+#new {
+	font-size: 1em;
+	font-family: monospace;
 }
 
 #intro {
