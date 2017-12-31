@@ -1,5 +1,6 @@
 /mystuff
 /content/blog/drafts
+/content/blog/draft-*
 /output
 *.pid
 *.swp
