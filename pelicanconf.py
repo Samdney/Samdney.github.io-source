@@ -130,8 +130,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('http://www.carolin-zoebelein.de/',
-    'http://www.carolin-zoebelein.de'),)
+LINKS = (('http://www.carolin-zoebelein.de/','http://www.carolin-zoebelein.de'),
+         ('Raw Blog content at GitHub','https://github.com/Samdney/Samdney.github.io-source'),)
 
 # Social widget
 SOCIAL = (('<i class="fa fa-twitter" aria-hidden="true"></i> SamdneyTweet', 'https://twitter.com/SamdneyTweet'),
