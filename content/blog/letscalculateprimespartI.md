@@ -37,8 +37,8 @@ In this way, we can write every of our times tables which are given by $x_{i,j} 
 If we finally calculate this sum, we receive
 $$
 	\sum_{x_{j} = l}^{u} 10^{\left(2x_{i} + 1\right)x_{j} + x_{i}} = - \frac{10^{\left(2x_{i} + 1\right)l + x_{i}} - 10^{\left(2x_{i} + 1\right)\left(u+1\right) + x_{i}}}{10^{2x_{i} + 1} - 1}
-$$.
-See also [wolframalpha.com](http://www.wolframalpha.com/input/?i=sum+z%3Dl,+u,+10%5E((2*x+%2B+1)*z+%2B+x){target="_blank"}.
+$$. See also [wolframalpha.com](https://www.wolframalpha.com/input/?i=sum+z%3Dl,+u,+10%5E%28%282*x+%2B+1%29*z+%2B+x%29#7928802016733054506){target="_blank"}.
+
 
 But what can we do with this, now?  
 In the next post we will look at the intersection of times tables with this kind of representation.
