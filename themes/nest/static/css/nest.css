@@ -71,7 +71,8 @@ a.more{
 /* Syntax Highlighting */
 
 pre, code {
-    background: #f8f7fa;
+    /*background: #f8f7fa;*/
+    background: #666666;
     padding: 34px;
     font-size: 16px;
     line-height: 24px;
@@ -92,7 +93,8 @@ code { padding: 3px 6px; }
 	padding-bottom:20px;
 	padding-left:20px;
 	padding-right:0px;
-	background:#333;
+	/*background:#333;*/
+    background: #666666;
 	font-size:14px;
 	font-weight:400;
 	font-family:Consolas,monaco,monospace;
@@ -107,7 +109,8 @@ code { padding: 3px 6px; }
   padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  background:#333; 
+  /*background:#333;*/
+  background: #666666;
   font-size: 14px;
   font-weight: 400;
   font-family: Consolas, monaco, monospace;
