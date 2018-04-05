@@ -4,7 +4,7 @@ Category:   Math
 Tags:       primes, number theory
 Author:     Samdney
 
-Last week, I wrote in [Primes matrix](http://localhost:8000/2018/03/primes-matrix.html) about a possibility to represent primes. The negative part of this was, that there isn't a nice way to generate $X_{\left(i\right)}^{n\times n}$. Today, I want to add a few lines, how you can approximate it.  
+Last week, I wrote in [Primes matrix](https://samdney.github.io/2018/03/primes-matrix.html) about a possibility to represent primes. The negative part of this was, that there isn't a nice way to generate $X_{\left(i\right)}^{n\times n}$. Today, I want to add a few lines, how you can approximate it.  
 
 Let's look again at 
 
