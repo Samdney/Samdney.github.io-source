@@ -134,9 +134,12 @@ LINKS = (('http://www.carolin-zoebelein.de/','http://www.carolin-zoebelein.de'),
          ('Raw Blog content at GitHub','https://github.com/Samdney/Samdney.github.io-source'),)
 
 # Social widget
-SOCIAL = (('<i class="fa fa-twitter" aria-hidden="true"></i> SamdneyTweet', 'https://twitter.com/SamdneyTweet'),
-          ('<i class="fa fa-github" aria-hidden="true"></i> Samdney', 'https://github.com/Samdney'),
-	  ('<i class="fa fa-file-text-o" aria-hidden="true"></i> arXiv', 'https://arxiv.org/find/math/1/au:+Zobelein_C/0/1/0/all/0/1'), )
+SOCIAL = (
+        ('<i class="fa fa-twitter" aria-hidden="true"></i> SamdneyTweet', 'https://twitter.com/SamdneyTweet'),
+        ('<i class="fa fa-github" aria-hidden="true"></i> Samdney', 'https://github.com/Samdney'),
+	#('<i class="fa fa-file-text-o" aria-hidden="true"></i> arXiv', 'https://arxiv.org/find/math/1/au:+Zobelein_C/0/1/0/all/0/1'),
+        ('<i class="ai ai-arxiv" aria-hidden="true" style="color:white;"></i> arXiv', 'https://arxiv.org/find/math/1/au:+Zobelein_C/0/1/0/all/0/1'),
+        )
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
