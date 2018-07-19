@@ -131,6 +131,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('http://www.carolin-zoebelein.de/','http://www.carolin-zoebelein.de'),
+         ('https://research.carolin-zoebelein.de/', 'https://research.carolin-zoebelein.de'),
          ('Raw Blog content at GitHub','https://github.com/Samdney/Samdney.github.io-source'),)
 
 # Social widget
