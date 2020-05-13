@@ -1,0 +1,2 @@
+rm -r output/*.html
+rm -r output/2017/ output/2018/ output/author/ output/blog/ output/category/ output/drafts/ output/images/ output/tag/ output/theme/

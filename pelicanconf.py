@@ -59,7 +59,7 @@ NEST_FOOTER_HTML = ''
 NEST_INDEX_HEAD_TITLE = u'0000 0000'
 NEST_INDEX_HEADER_TITLE = u'Samdney\'s Blog'
 #NEST_INDEX_HEADER_SUBTITLE = u'Smashing The Stack For Fun And Profit'
-NEST_INDEX_HEADER_SUBTITLE = u'The acquisition of wealth is no longer the driving force in our lives. ...We work to better ourselves ...and the rest of humanity. - Jean-Luc Picard, Star Trek: First Contact, 1996'
+NEST_INDEX_HEADER_SUBTITLE = u'The acquisition of wealth is no longer the driving force in our lives. ...We work to better ourselves ...and the rest of humanity.<br /> - Jean-Luc Picard, Star Trek: First Contact, 1996 - '
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'
@@ -92,7 +92,7 @@ NEST_CATEGORY_HEAD_DESCRIPTION = u'Category Archive'
 NEST_CATEGORY_HEADER_TITLE = u'Category'
 NEST_CATEGORY_HEADER_SUBTITLE = u'Category Archive'
 # pagination.html
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 4
 NEST_PAGINATION_PREVIOUS = u'Previous'
 NEST_PAGINATION_NEXT = u'Next'
 # period_archives.html
