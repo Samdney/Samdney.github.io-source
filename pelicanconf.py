@@ -8,6 +8,10 @@ SITEURL = ''
 
 PATH = 'content'
 
+DATE_FORMATS = {
+    'en': ('en_US','%a, %d %b %Y'),
+}
+
 STATIC_PATHS = ['blog', 'pages', 'images']
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
