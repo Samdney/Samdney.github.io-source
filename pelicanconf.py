@@ -12,6 +12,9 @@ DATE_FORMATS = {
     'en': ('en_US','%a, %d %b %Y'),
 }
 
+#DIRECT_TEMPLATES = ['index']
+#PAGINATED_TEMPLATES = {'index': 10}
+
 STATIC_PATHS = ['blog', 'pages', 'images']
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
@@ -96,7 +99,7 @@ NEST_CATEGORY_HEAD_DESCRIPTION = u'Category Archive'
 NEST_CATEGORY_HEADER_TITLE = u'Category'
 NEST_CATEGORY_HEADER_SUBTITLE = u'Category Archive'
 # pagination.html
-DEFAULT_PAGINATION = 4
+DEFAULT_PAGINATION = 5
 NEST_PAGINATION_PREVIOUS = u'Previous'
 NEST_PAGINATION_NEXT = u'Next'
 # period_archives.html

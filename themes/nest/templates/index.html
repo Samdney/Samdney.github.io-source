@@ -54,7 +54,12 @@
             <h2><a href="{{ SITEURL }}/{{ articles_page.url }}">{{ NEST_INDEX_CONTENT_TITLE }} {% if articles_page.has_previous() %}<small>- page {{ articles_page.number }}</small>{% endif %}</a></h2>
             <dl class="dl-horizontal">
                 {% for article in articles_page.object_list %}
-                    {% if not loop.first %}
+                    {% if not loop.first and not articles_page.has_previous() %}
+                        <dt>{{ article.locale_date}}</dt>
+                        <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                        <dd>{{ article.summary }}</dd>
+                    {% endif %}
+                    {% if articles_page.has_previous() %}
                         <dt>{{ article.locale_date}}</dt>
                         <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
                         <dd>{{ article.summary }}</dd>
@@ -67,15 +72,17 @@
     {% include 'pagination.html' %}
     {% else %}
 
-
-
     <div class="archive-container">
         <div class="container content archive">
             <hr style="border:dotted #000000 1px;"/>
             <h2><a href="{{ SITEURL }}/">{{ NEST_INDEX_CONTENT_TITLE }}</a></h2>
             <dl class="dl-horizontal">
                 {% for article in articles %}
-                    {% if not loop.first %}
+                    {% if not loop.first and not articles_page.has_previous() %}
+                        <dt>{{ article.locale_date}}</dt>
+                        <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                    {% endif %}
+                    {% if articles_page.has_previous() %}
                         <dt>{{ article.locale_date}}</dt>
                         <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
                     {% endif %}
