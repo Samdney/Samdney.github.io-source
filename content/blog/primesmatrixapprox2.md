@@ -3,7 +3,7 @@ Slug:       primesapprox2
 Date:       2018-04-05 07:37
 Category:   Math
 Tags:       primes, number theory
-Author:     Samdney
+Author:     Carolin Zöbelein
 
 Since I wasn't happy about the final sum in my last post
 [Primes matrix: Approximation](https://samdney.github.io/2018/03/primes-matrix-approximation.html), I think about an alternative way.  

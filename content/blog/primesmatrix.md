@@ -2,7 +2,7 @@ Title:      Primes matrix
 Date:       2018-03-23 01:30
 Category:   Math
 Tags:       primes, number theory
-Author:     Samdney
+Author:     Carolin Zöbelein
 
 Some time ago, I already wrote about representation ideas of primes and we saw
 that we run in troubles with this. Today, I want to present you a similar

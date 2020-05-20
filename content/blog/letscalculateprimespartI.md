@@ -2,7 +2,7 @@ Title:      Let`s calculate primes! Part I - Representation of times tables
 Date:       2017-12-29 21:21
 Category:   Math
 Tags:       primes, number theory
-Author:     Samdney
+Author:     Carolin Zöbelein
 
 Some days ago, I had several nice ideas for calculating primes recursively, which I want to share with you in a small series of posts.  
 

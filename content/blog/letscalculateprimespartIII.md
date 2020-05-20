@@ -2,7 +2,7 @@ Title:      Let`s calculate primes! Part III - Intersection of times tables: sum
 Date:       2018-01-13 06:31
 Category:   Math
 Tags:       primes, number theory
-Author:     Samdney
+Author:     Carolin Zöbelein
 
 In the post before, we looked at the intersection ot times tables and its problems. Now we will look at the belonging sum formula, which is given by
 $$

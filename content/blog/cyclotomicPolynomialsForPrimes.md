@@ -3,7 +3,7 @@ Slug:       cyclotomic-polynomials-for-primes
 Date:       2018-07-18 05:33
 Category:   Math
 Tags:       cyclotomic polynomials, primes, number theory
-Author:     Samdney
+Author:     Carolin Zöbelein
 
 Currently, I'm spending my time with cyclotomic polynomials. So, I don't want to
 miss the possibility also to mention a small note about the connection of this
