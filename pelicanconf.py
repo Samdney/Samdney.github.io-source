@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Samdney'
-SITENAME = u"Samdney's Blog"
+AUTHOR = u'Carolin Zöbelein'
+SITENAME = u"Carolin's Blog"
 SITEURL = ''
 
 PATH = 'content'
@@ -40,7 +40,7 @@ PLUGINS = ['render_math', 'pelican_fontawesome', 'summary']
 # Theme
 THEME = 'themes/nest'
 
-SITESUBTITLE = u'Samdney\'s Blog'
+SITESUBTITLE = u'Carolin\'s Blog'
 
 #DISPLAY_PAGES_ON_MENU
 
@@ -50,7 +50,9 @@ NEST_CSS_MINIFY = True
 #MENUITEMS = [('Home', '/'), ('Contact', 'placeholder'), ('Categories','/categories.html')]
 MENUITEMS = [('Categories','/categories.html'), ('Contact', '/contact.html')]
 # Add header background image from content/images : 'background.jpg'
-NEST_HEADER_IMAGES = 'AfterThe_digital_War_Samdney_lowerQuality.jpg'
+#NEST_HEADER_IMAGES = 'AfterThe_digital_War_Samdney_lowerQuality.jpg'
+NEST_HEADER_IMAGES = 'computer-2930704_1280.jpg'
+
 #NEST_HEADER_LOGO = '/image/logo.png'
 # Footer
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
@@ -63,8 +65,8 @@ NEST_LINKS_COLUMN_TITLE = u'Links'
 # Footer optional
 NEST_FOOTER_HTML = ''
 # index
-NEST_INDEX_HEAD_TITLE = u'0000 0000'
-NEST_INDEX_HEADER_TITLE = u'Samdney\'s Blog'
+NEST_INDEX_HEAD_TITLE = u'Carolin\'s Blog'
+NEST_INDEX_HEADER_TITLE = u'Carolin\'s Blog'
 #NEST_INDEX_HEADER_SUBTITLE = u'Smashing The Stack For Fun And Profit'
 NEST_INDEX_HEADER_SUBTITLE = u'The acquisition of wealth is no longer the driving force in our lives. ...We work to better ourselves ...and the rest of humanity.<br /> - Jean-Luc Picard, Star Trek: First Contact, 1996 - '
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
