@@ -3,6 +3,7 @@ Date:       2017-12-29 21:21
 Category:   Math
 Tags:       primes, number theory
 Author:     Carolin Zöbelein
+Summary:    Describtion of prime numbers.
 
 Some days ago, I had several nice ideas for calculating primes recursively, which I want to share with you in a small series of posts.  
 

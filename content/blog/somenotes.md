@@ -4,6 +4,7 @@ Date:       2018-06-19 03:00
 Category:   Philosophy
 Tags:       politics, countries, war, human, nationalism
 Author:     Carolin Zöbelein
+Summary:    Sometimes, ...
 
 Sometimes I wish that I would live in the Stone Age. In a world without any stupid borders which divide humans in groups and countries which are the result of wars, destruction and the dead of millions of people.
 

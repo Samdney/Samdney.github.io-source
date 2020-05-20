@@ -42,6 +42,8 @@ THEME = 'themes/nest'
 
 SITESUBTITLE = u'Carolin\'s Blog'
 
+SITEURL_SOCIAL = 'https://blog.carolin-zoebelein.de'
+
 #DISPLAY_PAGES_ON_MENU
 
 # Minified CSS

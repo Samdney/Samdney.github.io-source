@@ -4,6 +4,7 @@ Date:       2018-07-18 05:33
 Category:   Math
 Tags:       cyclotomic polynomials, primes, number theory
 Author:     Carolin Zöbelein
+Summary:    How you can use cyclotomic polynomials for primes number describtion.
 
 Currently, I'm spending my time with cyclotomic polynomials. So, I don't want to
 miss the possibility also to mention a small note about the connection of this

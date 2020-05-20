@@ -3,6 +3,7 @@ Date:       2017-12-29 22:32
 Category:   Math
 Tags:       primes, number theory
 Author:     Carolin Zöbelein
+Summary:    Describtion of prime numbers part 2.
 
 
 Ok. What is the intersection of two or more times tables in our new representation? That is easy! It is the sum of this times tables. Let`s look a the addition of the two times tables 

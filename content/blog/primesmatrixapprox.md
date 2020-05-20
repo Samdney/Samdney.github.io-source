@@ -3,6 +3,7 @@ Date:       2018-03-31 01:44
 Category:   Math
 Tags:       primes, number theory
 Author:     Carolin Zöbelein
+Summary:    Last week, I wrote about a possibility to represent primes. The negative part of ... 
 
 Last week, I wrote in [Primes matrix](https://samdney.github.io/2018/03/primes-matrix.html) about a possibility to represent primes. The negative part of this was, that there isn't a nice way to generate $X_{\left(i\right)}^{n\times n}$. Today, I want to add a few lines, how you can approximate it.  
 

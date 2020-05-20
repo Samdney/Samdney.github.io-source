@@ -3,6 +3,7 @@ Date:       2018-01-13 06:31
 Category:   Math
 Tags:       primes, number theory
 Author:     Carolin Zöbelein
+Summary:	Describtion of prime numbers part 3.
 
 In the post before, we looked at the intersection ot times tables and its problems. Now we will look at the belonging sum formula, which is given by
 $$

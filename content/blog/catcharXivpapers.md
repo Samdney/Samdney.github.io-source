@@ -3,6 +3,7 @@ Date:       2018-01-13 10:11
 Category:   Hacking
 Tags:       arXiv, papers
 Author:     Carolin Zöbelein
+Summary:    Get your favorite papers from arXiv.
 
 Have you ever wanted to catch the newest [arXiv.org](https://arXiv.org){target="_blank"} papers from your favorite research
 areas? I do.
