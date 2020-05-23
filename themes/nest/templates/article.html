@@ -54,9 +54,9 @@
 
 	<h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
         <p><font size="2.3em"><i>{{ article.locale_date }} by {{ article.author }}<br />
-        Category: {{ article.category }},
+        Category: {{ article.category }}<br />
 
-	Tags: {% for tag in article.tags|sort %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}  	
+	Tags: {% for tag in article.tags|sort %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
 	
 	</i></font>
 
