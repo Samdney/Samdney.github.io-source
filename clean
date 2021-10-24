@@ -1,3 +1,3 @@
 rm -r output/*.html
-rm -r output/2019/ output/2020
+rm -r output/2019/ output/2020 output/2021
 rm -r output/2017/ output/2018/ output/author/ output/blog/ output/category/ output/drafts/ output/images/ output/tag/ output/theme/
