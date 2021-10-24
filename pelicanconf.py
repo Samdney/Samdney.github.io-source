@@ -50,7 +50,7 @@ SITEURL_SOCIAL = 'https://blog.carolin-zoebelein.de'
 NEST_CSS_MINIFY = True
 # Add items to top menu before pages
 #MENUITEMS = [('Home', '/'), ('Contact', 'placeholder'), ('Categories','/categories.html')]
-MENUITEMS = [('Categories','/categories.html'), ('Contact', '/contact.html')]
+MENUITEMS = [('Archives', '/archives.html'), ('Categories','/categories.html'), ('Contact', '/contact.html')]
 # Add header background image from content/images : 'background.jpg'
 #NEST_HEADER_IMAGES = 'AfterThe_digital_War_Samdney_lowerQuality.jpg'
 NEST_HEADER_IMAGES = 'computer-2930704_1280.jpg'
