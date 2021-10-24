@@ -68,9 +68,14 @@ NEST_LINKS_COLUMN_TITLE = u'Links'
 NEST_FOOTER_HTML = ''
 # index
 NEST_INDEX_HEAD_TITLE = u'Carolin\'s Blog'
-NEST_INDEX_HEADER_TITLE = u'Carolin\'s Blog'
+
+NEST_INDEX_HEADER_TITLE_HEAD = True
+#NEST_INDEX_HEADER_TITLE = u'Carolin\'s Blog'
+NEST_INDEX_HEADER_TITLE = u'Math, CS and Random Stuff :)'
 #NEST_INDEX_HEADER_SUBTITLE = u'Smashing The Stack For Fun And Profit'
-NEST_INDEX_HEADER_SUBTITLE = u'The acquisition of wealth is no longer the driving force in our lives. ...We work to better ourselves ...and the rest of humanity.<br /> - Jean-Luc Picard, Star Trek: First Contact, 1996 - '
+#NEST_INDEX_HEADER_SUBTITLE = u'The acquisition of wealth is no longer the driving force in our lives. ...We work to better ourselves ...and the rest of humanity.<br /> - Jean-Luc Picard, Star Trek: First Contact, 1996 - '
+NEST_INDEX_FOOTER_SUBTITLE = u'The acquisition of wealth is no longer the driving force in our lives. ...We work to better ourselves ...and the rest of humanity.<br /> - Jean-Luc Picard, Star Trek: First Contact, 1996 - '
+
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
 # archives.html
 NEST_ARCHIVES_HEAD_TITLE = u'Archives'
