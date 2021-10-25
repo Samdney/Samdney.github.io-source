@@ -1,9 +1,5 @@
 {% extends "base.html" %}
 
-{% block title %}{% if articles_page.has_previous() %}{{ super() }} - page {{ articles_page.number }} {% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.title }}{% endif %}{% endfor %}{% else %}{{ super() }}{% endif %}{% endif %}{% endblock title %}
-
-{% block description %}{{ SITENAME }}, {{ SITESUBTITLE }}{% endblock description %}
-
 
 {% block head %}
     <meta charset="utf-8">
@@ -11,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="{% block keywords %}{% endblock keywords %}">
     <link rel="icon" href="{{ SITEURL }}/images/favicon.ico">
+
+    <title>{% block title %}{% if articles_page.has_previous() %}{{ super() }} - page {{ articles_page.number }} {% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.title }}{% endif %}{% endfor %}{% else %}{{ super() }}{% endif %}{% endif %}{% endblock title %}</title>
+
+    <!--{% block description %}{{ SITENAME }}, {{ SITESUBTITLE }}{% endblock description %} -->
 
     <!-- Awesome font -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
