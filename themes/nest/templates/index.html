@@ -26,7 +26,7 @@
     <!-- Social -->
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="{% if articles_page.has_previous() %}{{ SITENAME }} - page {{ articles_page.number }}{% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.title }}{% endif %}{% endfor %}{% else %}{{ SITENAME }}{% endif %}{% endif %}"/>
-    <meta property="og:description" content="{% if articles_page.has_previous() %}{{ SITENAME }} - page {{ articles_page.number }}{% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.title }}{% endif %}{% endfor %}{% else %}{{ SITENAME }}{% endif %}{% endif %}"/>
+    <meta property="og:description" content="{% if articles_page.has_previous() %}{{ SITENAME }} - page {{ articles_page.number }}{% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.summary }}{% endif %}{% endfor %}{% else %}{{ SITENAME }}{% endif %}{% endif %}"/>
     <meta property="og:site_name" content="{{ SITENAME }}" />
     <meta property="og:url" content="{{ SITEURL_SOCIAL }}"/>
     <meta property="og:image" content="{{ SITEURL_SOCIAL }}/images/twittercard.jpg"/>
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@SamdneyTweet" />
     <meta name="twitter:title" content="{% if articles_page.has_previous() %}{{ SITENAME }} - page {{ articles_page.number }}{% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.title }}{% endif %}{% endfor %}{% else %}{{ SITENAME }}{% endif %}{% endif %}" />
-    <meta name="twitter:description" content="{% if articles_page.has_previous() %}{{ SITENAME }} - page {{ articles_page.number }}{% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.title }}{% endif %}{% endfor %}{% else %}{{ SITENAME }}{% endif %}{% endif %}" />
+    <meta name="twitter:description" content="{% if articles_page.has_previous() %}{{ SITENAME }} - page {{ articles_page.number }}{% else %}{% if articles %}{% for article in articles_page.object_list %}{% if loop.first and not articles_page.has_previous() %}{{ article.summary }}{% endif %}{% endfor %}{% else %}{{ SITENAME }}{% endif %}{% endif %}" />
     <meta name="twitter:image" content="{{ SITEURL_SOCIAL }}/images/twittercard.jpg" />
 
     <!-- RSS Feeds -->
