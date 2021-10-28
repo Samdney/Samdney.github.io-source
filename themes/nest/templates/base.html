@@ -162,6 +162,7 @@
                         </a>
                     </div>
                     <div class="nav pull-right">
+                        <div style="background-color: rgba(0, 0, 0, 0.5); color: white; padding-top: 0px; margin: 1px; margin-top: 1px; height: 5.5em; padding-left: 0em; padding-right: 1em;">
                         {% for title, link in MENUITEMS %}
                             {% if 'http://' in link or 'https://' in link %}
                                 <a href="{{ link }}">{{ title }}</a>
@@ -174,6 +175,7 @@
                             <a {% if pg == page %} class="active"{% endif %} href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a>
                         {% endfor %}
                         {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
