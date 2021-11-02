@@ -1,0 +1,35 @@
+Title:      Patent applications: Link list
+Slug:       patent-applications-link-list
+Date:       2021-10-28 19:13
+Category:   Patents 
+Tags:       link list, patent, patent application 
+Author:     Carolin Zöbelein
+Summary:    A useful living link list for patent applications.
+
+
+This is a list of useful links in context of patent applications. I'm based in Germany, hence maybe not all links are also useful for you. Furthermore, it's a living document, means, from time to time, I add new links.
+
+
+Patent search
+
+* Google Patent Search: <a href="https://www.google.com/?tbm=pts" title="External: Google Patent Search" target="_blank">https://www.google.com/?tbm=pts</a> 
+* European Patent Office: <a href="https://worldwide.espacenet.com" title="External: European Patent Office - Search" target="_blank">https://worldwide.espacenet.com</a>
+* United States Patent and Trademark Office: <a href="https://patft.uspto.gov/netahtml/PTO/search-bool.html" title="External: United States Patent and Trademark Office - Search" target="_blank">https://patft.uspto.gov/netahtml/PTO/search-bool.html</a>
+* German Patent and Trademark Office:
+    * DPMAregister - Official Publications and Register Database: <a href="https://register.dpma.de/DPMAregister/Uebersicht" title="External: DPMAregister" target="_blank">https://register.dpma.de/DPMAregister/Uebersicht</a>
+    * DEPATISnet - Database for online searches on patent publications from around the world: <a href="https://depatisnet.dpma.de/DepatisNet/depatisnet" title="External: DEPATISnet" target="_blank">https://depatisnet.dpma.de/DepatisNet/depatisnet</a>
+
+
+Patent offices
+
+* European Patent Office: <a href="https://www.epo.org/" title="External: European Patent Office" target="_blank">https://www.epo.org/</a>
+* United States Patent and Trademark Office: <a href="https://www.uspto.gov/" title="External: United States Patent and Trademark Office" target="_blank">https://www.uspto.gov/</a>
+* German Patent and Trademark Office: <a href="https://www.dpma.de/" title="External: German Patent and Trademark Office" target="_blank">https://www.dpma.de/</a>
+
+
+Legal texts
+
+* European Patent Office (EPO) - Legal texts: <a href="https://www.epo.org/law-practice/legal-texts.html" title="External: European Patent Office (EPO) - Legal texts" target="_blank">https://www.epo.org/law-practice/legal-texts.html</a>
+* US Consolidated Patent Laws: <a href="https://www.uspto.gov/web/offices/pac/mpep/consolidated_laws.pdf" title="External: US Consolidated Patent Laws, United States Patent and Trademark Office" target="_blank">https://www.uspto.gov/web/offices/pac/mpep/consolidated_laws.pdf</a>
+* Patentgesetz (German Patent Law): <a href="https://www.gesetze-im-internet.de/patg/BJNR201170936.html" title="External: Patentgesetz (German Patent Law), Bundesamt für Justiz" target="blank">https://www.gesetze-im-internet.de/patg/BJNR201170936.html</a>
+
