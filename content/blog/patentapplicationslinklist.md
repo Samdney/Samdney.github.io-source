@@ -33,3 +33,11 @@ Legal texts
 * US Consolidated Patent Laws: <a href="https://www.uspto.gov/web/offices/pac/mpep/consolidated_laws.pdf" title="External: US Consolidated Patent Laws, United States Patent and Trademark Office" target="_blank">https://www.uspto.gov/web/offices/pac/mpep/consolidated_laws.pdf</a>
 * Patentgesetz (German Patent Law): <a href="https://www.gesetze-im-internet.de/patg/BJNR201170936.html" title="External: Patentgesetz (German Patent Law), Bundesamt für Justiz" target="blank">https://www.gesetze-im-internet.de/patg/BJNR201170936.html</a>
 
+
+WIPANO (German government, Patent application funding program)
+
+* Bundesministerium für Wirtschaft und Klimaschutz: WIPANO (Wissens- und Technologietransfer durch Patente und Normen): <a href="https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/WIPANO/Patentierung-Unternehmen/patentierung-unternehmen.html" title="External: WIPANO, Bundesministerium für Wirtschaft und Klimaschutz" target="_blank">https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/WIPANO/Patentierung-Unternehmen/patentierung-unternehmen.html</a>
+* WIPANO - Programminformation: <a href="https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/WIPANO/wipano-programminformation-2021.pdf" title="External: WIPANO Programminformation, Bundesministerium für Wirtschaft und Energie" target="_blank">https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/WIPANO/wipano-programminformation-2021.pdf</a>
+* WIPANO - Änderung der Richtlinien: <a href="https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/WIPANO/wipano-aenderung-richtlinie_29-03-2021.pdf" title="External: WIPANO Änderung der Richtlinien, Bundesministerium der Justiz und für Verbraucherschutz" target="_blank">https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/WIPANO/wipano-aenderung-richtlinie_29-03-2021.pdf</a>
+* Brochüre "Von der Idee zum Markterfolg": <a href="https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/broschuere_von-der-idee-zum-markterfolg.pdf" title="External: Von der Idee zum Markterfolg, Bundesministerium für Wirtschaft und Energie" target="_blank">https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/broschuere_von-der-idee-zum-markterfolg.pdf</a>
+
