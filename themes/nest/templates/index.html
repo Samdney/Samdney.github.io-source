@@ -146,6 +146,10 @@
                 {% endfor %}
             </dl>
             <hr style="border:dotted #000000 1px;"/>
+                 {% for tag, articles in tags|sort %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>
+                {% endfor %}
+            <hr style="border:dotted #000000 1px;"/>
         </div>
     </div>
     {% include 'pagination.html' %}
