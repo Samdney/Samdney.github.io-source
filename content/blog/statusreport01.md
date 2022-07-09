@@ -22,7 +22,7 @@ Summary:    Status report #1: Un update about my current state of work...
 
 * *Project and fundings.* I have a list of other projects on which I want to work in the future. I will talk about them more in detail in another article. Hence, I’m currently looking for possible grants, fundings, crowdfundings and fellowships which could fit to them and keeping their deadlines in mind.
 
-* *The Film Fund.* I found this nice short film funding. Hence, I’m thinking intensevely about the right application sentence for my #Hashtag short film series (<a href="https://youtu.be/K_anslmFTKA" title="External: Youtube #Hashtag Trailer" target="_blank">https://youtu.be/K_anslmFTKA</a>). 😄 <a href="https://www.thefilmfund.co/documentary-sentence-entry/" title="External: The film fund" target="_blank">https://www.thefilmfund.co/documentary-sentence-entry/</a>
+* *The Film Fund.* I found this nice short film funding. Hence, I’m thinking intensevely about the right application sentence for my #Hashtag short film series (<a href="https://youtu.be/K_anslmFTKA" title="External: Youtube #Hashtag Trailer" target="_blank">https://youtu.be/K_anslmFTKA</a>). 😄 <a href="https://www.thefilmfund.co/documentary-sentence-entry/" title="External: The film fund" target="_blank">https://www.thefilmfund.co/documentary-sentence-entry/</a>)
 
 * *Getting living expenses short term.* Because of private issues, I have to organize very short term income, at the moment, until I get money from my grants. Until now, this hasn’t worked well. 😞
 

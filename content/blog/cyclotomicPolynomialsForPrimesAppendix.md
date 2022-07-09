@@ -9,10 +9,10 @@ Summary:    Ok, last time, we had ...
 Ok, last time, we had
 
 \begin{alignat}{3}
-    \phi_{p}\left(x\right) &= \sum_{k = 0}^{p-1} x^{k} \notag \\
-    &= \sum_{k = 0}^{p-1} e^{k\ln\left(x\right)} \notag \\
+    \phi_{p}\left(x\right) &= \sum_{k = 0}^{p-1} x^{k} \notag \\\\
+    &= \sum_{k = 0}^{p-1} e^{k\ln\left(x\right)} \notag \\\\
     &= e^{0\ln\left(x\right)} + \sum_{k = 1}^{p-1} e^{k\ln\left(x\right)}
-    \notag \\
+    \notag \\\\
     &= 1 + \frac{e^{\ln\left(x\right)} \left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)} - 1}
 \end{alignat}
 
@@ -20,18 +20,18 @@ Ok, last time, we had
 also write here
 
 \begin{alignat}{3}
-    \phi_{p}\left(x\right) &= 1 + \frac{e^{\ln\left(x\right)} \left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)} - 1} \notag \\
-    &= 1 + \frac{x\left(x^{p-1} - 1\right)}{x - 1} \\
+    \phi_{p}\left(x\right) &= 1 + \frac{e^{\ln\left(x\right)} \left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)} - 1} \notag \\\\
+    &= 1 + \frac{x\left(x^{p-1} - 1\right)}{x - 1} \\\\
         &= 1 + \frac{x^{p} - x}{x - 1} \notag
 \end{alignat}
 
 Now, if we solve this for p
 
 \begin{alignat}{3}
-    \phi_{p}\left(x\right) &= 1 + \frac{x^{p} - x}{x - 1} \notag \\
-    \phi_{p}\left(x\right) - 1 &= \frac{x^{p} - x}{x - 1} \notag \\
-    \left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) &= x^{p} - x \notag \\
-    \left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x &= x^{p} \notag \\
+    \phi_{p}\left(x\right) &= 1 + \frac{x^{p} - x}{x - 1} \notag \\\\
+    \phi_{p}\left(x\right) - 1 &= \frac{x^{p} - x}{x - 1} \notag \\\\
+    \left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) &= x^{p} - x \notag \\\\
+    \left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x &= x^{p} \notag \\\\
     p &= \ln\left(\frac{\left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x}{x}\right).
 \end{alignat}
 

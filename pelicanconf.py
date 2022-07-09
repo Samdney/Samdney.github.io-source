@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
 AUTHOR = u'Carolin Zöbelein'
 SITENAME = u"Carolin's Blog"
 SITEURL = ''
@@ -27,12 +28,42 @@ SUMMARY_MAX_LENGTH = 15
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'en'
+#DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'en_US'
+#DEFAULT_LANG = u'de'
 
-###
+
+### TODO
 # Plugins
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['plugins', '../pelican-plugins']
 PLUGINS = ['render_math', 'pelican_fontawesome', 'summary']
+
+import markdown
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+            #'css_class': 'codehilite',
+            'linenums': False,
+            'guess_lang': False,
+        },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {},
+        
+        'markdown_link_attr_modifier': {
+            'new_tab': 'on',
+            'no_referrer': 'external_only',
+            'auto_title': 'on',
+        },
+        
+        'markdown.extensions.mathjax' : {},
+    },
+    'output_format': 'html5',
+}
+
+
 
 ###
 # THEME: nest

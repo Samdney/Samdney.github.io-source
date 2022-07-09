@@ -14,6 +14,12 @@ FTP_TARGET_DIR=/
 
 SSH_HOST=localhost
 SSH_PORT=22
+
+# LOCALES
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
+
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
@@ -26,6 +32,7 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 DROPBOX_DIR=~/Dropbox/Public/
 
 GITHUB_PAGES_BRANCH=gh-pages
+
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)

@@ -11,6 +11,10 @@ INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
 
+# LOCALES
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
 ###
 # Don't change stuff below here unless you are sure
 ###

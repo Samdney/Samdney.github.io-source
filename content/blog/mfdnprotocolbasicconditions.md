@@ -6,7 +6,7 @@ Tags:       decentralization, networks, protocol, mathematical, privacy, MfDN-Pr
 Author:     Carolin Zöbelein
 Summary:    A mathematical forced decentralized network protocol needs a set of basic conditions which has to be considered. To get more clear about it, we discuss the differences of this concept regarding to classical decentralized systems and give a first starting point for further design steps.
 
-The following was published as research notes on [https://research.carolin-zoebelein.de/Public/Publications/Notes-Basic-conditions-for-a-mathematical-forced-decentralized-network-protocol-MfDN-Protocol.html](https://research.carolin-zoebelein.de/Public/Publications/Notes-Basic-conditions-for-a-mathematical-forced-decentralized-network-protocol-MfDN-Protocol.html){target="_blank"} at 2020/02/20, for the first time.
+The following was published as research notes on <a href="https://research.carolin-zoebelein.de/Public/Publications/Notes-Basic-conditions-for-a-mathematical-forced-decentralized-network-protocol-MfDN-Protocol.html" target="_blank">https://research.carolin-zoebelein.de/Public/Publications/Notes-Basic-conditions-for-a-mathematical-forced-decentralized-network-protocol-MfDN-Protocol.html</a> at 2020/02/20, for the first time.
 
 ## Introduction 
 In this notes, we will discuss the main basic conditions which are necessary for a mathematical forced decentralized network protocol, short *MfDN-Protocol*.

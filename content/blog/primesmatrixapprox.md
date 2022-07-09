@@ -12,31 +12,31 @@ Let's look again at
 $$
 X_{\left(1\right)}^{n\times n} :=
 \begin{pmatrix}
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 1 & \cdots \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & \cdots \\\\
 \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \ddots
 \end{pmatrix}
-= \left(x_{\left(1\right),kj}\right)_{k=1,\dots,n \ , j=1,\dots, n} \  \delta_{kj}
+= \left(x_{\left(1\right),kj}\right)\_{k=1,\dots,n \ , j=1,\dots, n} \  \delta\_{kj}
 $$
 
 $$
 X_{\left(2\right)}^{n\times n} :=
 \begin{pmatrix}
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots  \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\
-0 & 0 & 0 & 0 & 0 & 0 & 1 & \cdots \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & \cdots \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & \cdots \\\\
 \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \ddots
 \end{pmatrix}
-= \left(x_{\left(2\right),kj}\right)_{k=1,\dots,n \ , j=1,\dots, n} \  \delta_{kj}
+= \left(x_{\left(2\right),kj}\right)\_{k=1,\dots,n \ , j=1,\dots, n} \  \delta\_{kj}
 $$
 
 Instead of the definition from my last post, now, we will define
@@ -49,9 +49,9 @@ $$
 and
 
 $$
-\delta_{kj} := \left\{
+\delta_{kj} := \left\\{
 	\begin{array}{l@{\quad \quad}l}
-	1 & \mathrm{if} \ k = j \\
+	1 & \mathrm{if} \ k = j \\\\
 	0 & \mathrm{else}
 	\end{array}
 \right.
@@ -113,7 +113,7 @@ $$
     = 2\pi \epsilon\left(m\right) \frac{\left(k - x_{1}\right)\left(2x_{2} + 1\right) + \left(k - x_{2}\right)\left(2x_{1} + 1\right)}{\left(2x_{1} + 1\right)\left(2x_{2} + 1\right)}
 $$
 
-In [https://github.com/Samdney/primescalc](https://github.com/Samdney/primescalc){target="_blank"} we already discussed a similiar situation, which showed us that we don't have any problems if $2x_{1} + 1$ and $2x_{2} + 1$ are primes. For more information about this, please read the mentioned paper.  
+In <a href="https://github.com/Samdney/primescalc" target="_blank">https://github.com/Samdney/primescalc</a> we already discussed a similiar situation, which showed us that we don't have any problems if $2x_{1} + 1$ and $2x_{2} + 1$ are primes. For more information about this, please read the mentioned paper.  
 
 So we can do our final step
 $$

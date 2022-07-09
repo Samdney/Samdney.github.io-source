@@ -14,19 +14,19 @@ $$
 	\sum_{x_{i} = l^\prime}^{u^\prime} \left( - \frac{10^{\left(2x_{i} + 1\right)l + x_{i}} - 10^{\left(2x_{i} + 1\right)\left(u+1\right) + x_{i}}}{10^{2x_{i} + 1} - 1} \right)
 $$.
 
-We are not able to solve this second sum analytical, but it can be interesting to look a bit around this sum. I had a look what [wolframalpha.com](https://www.wolframalpha.com/input/?i=-%2810%5Ex+%2810%5E%28l+%282+x+%2B+1%29%29+-+10%5E%28%28u+%2B+1%29+%282+x+%2B+1%29%29%29%29%2F%2810%5E%282+x+%2B+1%29+-+1%29){target="_blank"} is able to tell me about our first sum result and I found one thing which catched my attention.
+We are not able to solve this second sum analytical, but it can be interesting to look a bit around this sum. I had a look what <a href="https://www.wolframalpha.com/input/?i=-%2810%5Ex+%2810%5E%28l+%282+x+%2B+1%29%29+-+10%5E%28%28u+%2B+1%29+%282+x+%2B+1%29%29%29%29%2F%2810%5E%282+x+%2B+1%29+-+1%29" target="_blank">wolframalpha.com</a> is able to tell me about our first sum result and I found one thing which catched my attention.
 
 $$
     \int -\frac{10^{x}\left(10^{l\left(2x + 1\right)} - 10^{\left(u + 1\right)\left(2 x + 1\right)}\right)}{10^{2 x + 1} - 1} \mathrm{d}x
 $$
 $$
-    = \frac{10^{x} \left(\frac{10^{2lx + l} {}_{2}F_{1}\left(1, l + \frac{1}{2}, l + \frac{3}{2}, 10^{2 x + 1}\right)}{2l + 1} - \frac{10^{(u + 1)(2 x + 1)} {}_{2}F_{1}\left(1, u + \frac{3}{2}, u + \frac{5}{2}, 10^{2 x + 1}\right)}{2 u + 3}\right)}{\log(10)} + constant,
+    = \frac{10^{x} \left(\frac{10^{2lx + l} {}\_{2}F_{1}\left(1, l + \frac{1}{2}, l + \frac{3}{2}, 10^{2 x + 1}\right)}{2l + 1} - \frac{10^{(u + 1)(2 x + 1)} {}\_{2}F_{1}\left(1, u + \frac{3}{2}, u + \frac{5}{2}, 10^{2 x + 1}\right)}{2 u + 3}\right)}{\log(10)} + constant,
 $$
 
 with
 
 $$
-    {}_{2}F_{1}\left(a, b; c; x\right)
+    {}\_{2}F_{1}\left(a, b; c; x\right)
 $$
 
 is the hypergeometric function.  

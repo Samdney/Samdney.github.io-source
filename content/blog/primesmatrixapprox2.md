@@ -7,7 +7,7 @@ Author:     Carolin Zöbelein
 Summary:    Since I wasn't happy about the final sum in my last post, I think about an alternative way.
 
 Since I wasn't happy about the final sum in my last post
-[Primes matrix: Approximation](https://samdney.github.io/2018/03/primes-matrix-approximation.html), I think about an alternative way.  
+<a href="https://samdney.github.io/2018/03/primes-matrix-approximation.html">Primes matrix: Approximation</a>, I think about an alternative way.  
 
 We had 
 $$
@@ -19,7 +19,7 @@ in which we made the product over all $\exp$-functions for each $x_{i}$. Now,
 instead we will do the product over the arguments of the $\exp$-functions
 
 $$
-     x_{\left(a,\dots,b\right),kj} = = \lim_{m \rightarrow \infty} \exp\left(\prod_{i = a}^{b} I2\pi\frac{k - x_{i}}{2x_{i} + 1}\epsilon\left(m\right)\right) \delta_{kj}
+     x_{\left(a,\dots,b\right),kj} = \lim_{m \rightarrow \infty} \exp\left(\prod_{i = a}^{b} I2\pi\frac{k - x_{i}}{2x_{i} + 1}\epsilon\left(m\right)\right) \delta_{kj}
 $$
 
 Let's look at the qualities of this product
@@ -29,7 +29,7 @@ $$
 $$
 
 and under which conditions we receive integers. From my work
-[https://github.com/Samdney/primescalc](https://github.com/Samdney/primescalc){target="_blank"}
+<a href="https://github.com/Samdney/primescalc" target="_blank">https://github.com/Samdney/primescalc</a>
 we already know that we get troubles if at least one of the $2x_{i} + 1$ is
 a divisible number. Hence, we always asume that all our
 numbers $2x_{i} + 1$ are primes.

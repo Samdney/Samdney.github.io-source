@@ -5,14 +5,14 @@ Tags:       arXiv, papers
 Author:     Carolin Zöbelein
 Summary:    Get your favorite papers from arXiv.
 
-Have you ever wanted to catch the newest [arXiv.org](https://arXiv.org){target="_blank"} papers from your favorite research
+Have you ever wanted to catch the newest <a href="https://arXiv.org" target="_blank">arXiv.org</a> papers from your favorite research
 areas? I do.
 
 At first, I was sure that arXiv offers a comfortable way to catch all the
 newest papers or all papers from a particular publication day. Sadly, I was
 wrong. 
 
-I didn't find such a possibility for an arbitrary day. You can only get an overview over the newest papers (E.g. like this [https://arxiv.org/list/astro-ph/new](https://arxiv.org/list/astro-ph/new){target="_blank"}). But already, only to get a list of publications longer ago than one week isn't possible. That's not nice.
+I didn't find such a possibility for an arbitrary day. You can only get an overview over the newest papers (E.g. like this <a href="https://arxiv.org/list/astro-ph/new" target="_blank">https://arxiv.org/list/astro-ph/new</a>). But already, only to get a list of publications longer ago than one week isn't possible. That's not nice.
 
 The next idea was, to catch the papers by its arXiv-numbers. Nice idea,
 but it doesn't work if you only want papers from a particular area. The
@@ -25,7 +25,7 @@ particular research area.
 
 Ok. I had to look for an other way. After some research, I found the
 possibility for subscribing on an arxiv mailing list (See also
-[https://arxiv.org/help/subscribe](https://arxiv.org/help/subscribe){target="_blank"}), which sends you every
+<a href="https://arxiv.org/help/subscribe" target="_blank">https://arxiv.org/help/subscribe</a>), which sends you every
 working day an email about the newest papers of your favorite areas. Yeah, I
 subscribed on this about one year ago, so I have a nice overview for each day, now.  
 
@@ -60,7 +60,7 @@ You see, we receive a lot of information which we can use to catch our
 favorite papers, now.  
 
 In the following, I wrote a simple script to fetch all pdf-files based on the
-mailing list. You can also find it on [https://github.com/Samdney](https://github.com/Samdney/scripts/blob/master/arXivPdfs.sh){target="_blank"}.
+mailing list. You can also find it on <a href="https://github.com/Samdney/scripts/blob/master/arXivPdfs/arXivPdfs.sh" target="_blank">https://github.com/Samdney</a>.
 
 ```
 #!/bin/sh

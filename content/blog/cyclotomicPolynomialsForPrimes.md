@@ -13,16 +13,16 @@ polynomials to the set of prime numbers.
 At first, we have a cyclotomic polynomial in the following way
 
 \begin{equation}
-    \phi_{n}\left(x\right) = \prod_{\substack{1 \leq g \leq n \\ ggT\left(g,n\right) = 1}}
+    \phi_{n}\left(x\right) = \prod_{\substack{1 \leq g \leq n \\\\ ggT\left(g,n\right) = 1}}
     \left(x - e^{\frac{2\pi i g}{n}}\right)
 \end{equation}
 
 with $n, g \in \mathbb{N}$, respectively
 
 \begin{alignat}{3}
-    x^{n} - 1 &= \prod_{1 \leq g \leq n} \left(x - e^{\frac{2\pi i g}{n}}\right) \notag \\
-    &= \prod_{d | n} \prod_{\substack{1 \leq g \leq n \\ ggT\left(g,n\right) = d}} \left(x - e^{\frac{2\pi i g}{n}}\right) \notag \\
-    &= \prod_{d | n} \phi_{n/d}\left(x\right) \notag \\
+    x^{n} - 1 &= \prod_{1 \leq g \leq n} \left(x - e^{\frac{2\pi i g}{n}}\right) \notag \\\\
+    &= \prod_{d | n} \prod_{\substack{1 \leq g \leq n \\\\ ggT\left(g,n\right) = d}} \left(x - e^{\frac{2\pi i g}{n}}\right) \notag \\\\
+    &= \prod_{d | n} \phi_{n/d}\left(x\right) \notag \\\\
     &= \prod_{d | n} \phi_{d}\left(x\right)
 \end{alignat}
 
@@ -36,10 +36,10 @@ with $n, g \in \mathbb{N}$, respectively
 . From this follows the first rewriting
 
 \begin{alignat}{3}
-    \phi_{p}\left(x\right) &= \sum_{k = 0}^{p-1} x^{k} \notag \\
-    &= \sum_{k = 0}^{p-1} e^{k\ln\left(x\right)} \notag \\
+    \phi_{p}\left(x\right) &= \sum_{k = 0}^{p-1} x^{k} \notag \\\\
+    &= \sum_{k = 0}^{p-1} e^{k\ln\left(x\right)} \notag \\\\
     &= e^{0\ln\left(x\right)} + \sum_{k = 1}^{p-1} e^{k\ln\left(x\right)}
-    \notag \\
+    \notag \\\\
     &= 1 + \frac{e^{\ln\left(x\right)} \left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)} - 1}
 \end{alignat}
 
@@ -52,23 +52,23 @@ $$
 . Now we will solve this equation for $p$.
 
 \begin{alignat}{3}
-    \phi_{p}\left(x\right) &= 1 + \frac{e^{\ln\left(x\right)} \left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)} - 1} \notag \\
+    \phi_{p}\left(x\right) &= 1 + \frac{e^{\ln\left(x\right)} \left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)} - 1} \notag \\\\
     \left(\phi_{p}\left(x\right) - 1\right)\left(e^{\ln\left(x\right)} - 1\right) &=
     e^{\ln\left(x\right)}\left(e^{\left(p-1\right)\ln\left(x\right)} - 1\right)
-    \notag \\
-    \frac{\left(\phi_{p}\left(x\right) - 1\right)\left(e^{e^{\ln\left(x\right)}} - 1\right)}{e^{\ln\left(x\right)}} + 1 &= e^{\left(p-1\right)\ln\left(x\right)} \notag \\
-    \left(p-1\right)\ln\left(x\right) &= \ln\left(\frac{\left(\phi_{p}\left(x\right) - 1\right)\left(e^{\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)}} + 1\right) \notag \\
-    \left(p-1\right)\ln\left(x\right) &= \ln\left(\frac{\left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x}{x}\right) \notag \\
+    \notag \\\\
+    \frac{\left(\phi_{p}\left(x\right) - 1\right)\left(e^{e^{\ln\left(x\right)}} - 1\right)}{e^{\ln\left(x\right)}} + 1 &= e^{\left(p-1\right)\ln\left(x\right)} \notag \\\\
+    \left(p-1\right)\ln\left(x\right) &= \ln\left(\frac{\left(\phi_{p}\left(x\right) - 1\right)\left(e^{\ln\left(x\right)} - 1\right)}{e^{\ln\left(x\right)}} + 1\right) \notag \\\\
+    \left(p-1\right)\ln\left(x\right) &= \ln\left(\frac{\left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x}{x}\right) \notag \\\\
     \ln\left(x\right)\left(\left(p-1\right) + 1\right) &=
-    \ln\left(\left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x\right) \notag \\
+    \ln\left(\left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x\right) \notag \\\\
     p &= \ln\left(\frac{\left(\phi_{p}\left(x\right) - 1\right)\left(x - 1\right) + x}{x}\right)
 \end{alignat}
 
 Additionally, we have our second, very easy to see, connection for prime numbers
 
 \begin{alignat}{3}
-    \phi_{p}\left(x\right) &= x^{p} - 1 \notag \\
-    &= \sum_{k' = 0}^{p} x^{k'} - \sum_{k'' = 0}^{p-1} x^{k''} - 1 \notag \\
+    \phi_{p}\left(x\right) &= x^{p} - 1 \notag \\\\
+    &= \sum_{k' = 0}^{p} x^{k'} - \sum_{k'' = 0}^{p-1} x^{k''} - 1 \notag \\\\
     &= \phi_{p+1}\left(x\right) - \phi_{p}\left(x\right) - 1
 \end{alignat}
 

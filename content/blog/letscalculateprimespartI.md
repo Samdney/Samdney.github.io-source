@@ -7,7 +7,7 @@ Summary:    Describtion of prime numbers.
 
 Some days ago, I had several nice ideas for calculating primes recursively, which I want to share with you in a small series of posts.  
 
-I will use some insights of my work [https://github.com/Samdney/primescalc](https://github.com/Samdney/primescalc){target="_blank"} and assume you already know they. If not, please read it sidewise to the following posts.  
+I will use some insights of my work <a href="https://github.com/Samdney/primescalc" target="_blank">https://github.com/Samdney/primescalc</a> and assume you already know they. If not, please read it sidewise to the following posts.  
 
 We have given our already known equation  
 $$
@@ -38,7 +38,7 @@ In this way, we can write every of our times tables which are given by $x_{i,j} 
 If we finally calculate this sum, we receive
 $$
 	\sum_{x_{j} = l}^{u} 10^{\left(2x_{i} + 1\right)x_{j} + x_{i}} = - \frac{10^{\left(2x_{i} + 1\right)l + x_{i}} - 10^{\left(2x_{i} + 1\right)\left(u+1\right) + x_{i}}}{10^{2x_{i} + 1} - 1}
-$$. See also [wolframalpha.com](https://www.wolframalpha.com/input/?i=sum+z%3Dl,+u,+10%5E%28%282*x+%2B+1%29*z+%2B+x%29#7928802016733054506){target="_blank"}.
+$$. See also <a href="https://www.wolframalpha.com/input/?i=sum+z%3Dl,+u,+10%5E%28%282*x+%2B+1%29*z+%2B+x%29#7928802016733054506" target="_blank">wolframalpha.com</a>.
 
 
 But what can we do with this, now?  
